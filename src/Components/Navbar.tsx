@@ -1,9 +1,7 @@
-import React from "react";
 import logo from "../assets/logo.png";
 import cart from "../assets/cart.svg";
-type Props = {};
 
-const Navbar = (props: Props) => {
+const Navbar = () => {
   return (
     <div>
       <div className="w-full lg:mb-10 mb-4 flex justify-between items-center px-4 xl:px-20 ">

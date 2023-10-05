@@ -1,10 +1,10 @@
-import React from "react";
+
 import img1 from "../assets/img1.png";
 import img2 from "../assets/img2.png";
 import img3 from "../assets/img3.png";
-type Props = {};
 
-const About = (props: Props) => {
+
+const About = () => {
   return (
     <div className="xl:px-20  mt-6 lg:px-0 px-3">
       <button className="w-full bg-black py-4 lg:hidden text-white">

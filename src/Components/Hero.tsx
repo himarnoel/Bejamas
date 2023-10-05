@@ -1,7 +1,6 @@
 import heroimage from "../assets/hero.png";
-type Props = {};
 
-const Hero = (props: Props) => {
+const Hero = () => {
   return (
     <div className=" xl:px-20  lg:px-0 px-4">
       <div className="flex items-center justify-between mt-2 lg:mt-10">
