@@ -10,7 +10,6 @@ const Navbar = (props: Props) => {
         <img src={logo} alt="" className="w-[8rem] object-contain" />
         <img src={cart} alt="" className="w-[2.4rem] object-contain" />
       </div>
-
       <div className=" xl:px-20">
         <div className="h-[4px] bg-[#E4E4E4] "></div>
       </div>
