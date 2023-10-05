@@ -2,7 +2,7 @@ import heroimage from "../assets/hero.png";
 
 const Hero = () => {
   return (
-    <div className=" xl:px-20  lg:px-0 px-4">
+    <div className="lg:px-20 px-4">
       <div className="flex items-center justify-between mt-2 lg:mt-10">
         <p className="text-[28px] font-bold text-[#000]">
           Samurai King Resting
