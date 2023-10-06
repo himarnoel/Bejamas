@@ -5,6 +5,8 @@ import img1 from "../assets/Rectangle2.1.png";
 import img2 from "../assets/Rectangle2.2.png";
 import img3 from "../assets/Rectangle2.4.png";
 import img4 from "../assets/Rectangle2.5.png";
+import arrowleft from "../assets/arrows/Vector 1.svg";
+import arrowright from "../assets/arrows/Vector 2.svg";
 
 const Items = () => {
   return (
@@ -76,7 +78,7 @@ const Items = () => {
           </div>
         </div>
         <div className="w-full lg:w-[80%] grid lg:pl-10  lg:justify-items-center lg:grid-cols-3 gap-y-8 lg:gap-y-14">
-          <div className="flex flex-col w-full">
+          <div className="flex flex-col ">
             <div className="relative">
               <div className="top-0 left-0 w-[40%] text-[18px] h-[29px] flex items-center justify-center absolute bg-white">
                 Best Seller
@@ -159,7 +161,14 @@ const Items = () => {
               <p className="text-[#656565] text-lg">$101.00</p>
             </div>
           </div>
-          <div className="w-full col-span-3 bg-fuchsia-400 text-center "></div>
+          <div className="w-full flex justify-center items-center text-xl gap-x-6 px-32 col-span-3  text-center ">
+            <img src={arrowleft} alt="" />
+            <p className="text-[#B4B4B4]">1</p>
+            <p className="text-[#B4B4B4]">2</p>
+            <p className="text-black font-semibold">3</p>
+            <p className="text-[#B4B4B4]">4</p>
+            <img src={arrowright} alt="" />
+          </div>
         </div>
       </div>
     </div>
