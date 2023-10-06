@@ -5,6 +5,7 @@ import img1 from "../assets/Rectangle2.1.png";
 import img2 from "../assets/Rectangle2.2.png";
 import img3 from "../assets/Rectangle2.4.png";
 import img4 from "../assets/Rectangle2.5.png";
+
 const Items = () => {
   return (
     <div className="mb-10 lg:px-20 px-3">
@@ -158,6 +159,7 @@ const Items = () => {
               <p className="text-[#656565] text-lg">$101.00</p>
             </div>
           </div>
+          <div className="w-full col-span-3 bg-fuchsia-400 text-center "></div>
         </div>
       </div>
     </div>
