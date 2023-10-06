@@ -55,9 +55,14 @@ const Items = () => {
             <p className="text-black lg:hidden font-bold text-2xl lg:text-base mt-8 lg:mt-0">
               Filter
             </p>
-            <img src={cancel} alt="" onClick={() => setopenUp(!openUp)} />
+            <img
+              src={cancel}
+              alt=""
+              className="lg:hidden "
+              onClick={() => setopenUp(!openUp)}
+            />
           </div>
-          <div className=" flex flex-col  gap-y-8 mt-8">
+          <div className=" flex flex-col  gap-y-8 mt-8 lg:mt-0">
             <div className="flex gap-x-2">
               <input type="checkbox" />
               <p className="s">People</p>
