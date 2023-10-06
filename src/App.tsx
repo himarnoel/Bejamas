@@ -11,7 +11,7 @@ function App() {
         <Navbar />
         <Hero />
         <About />
-        <div className="px-2">
+        <div className="px-2 lg:px-20">
           <div className="h-[4px] w-full mt-10 bg-[#E4E4E4]"></div>
         </div>
         <Items />
