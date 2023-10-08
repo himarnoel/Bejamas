@@ -7,7 +7,10 @@ const Hero = () => {
         <p className="text-[28px] font-bold text-[#000]">
           Samurai King Resting
         </p>
-        <button className="bg-[#000] text-white h-[47px] w-[180px] hidden lg:block">
+        <button
+          onClick={() => alert("cool")}
+          className="bg-[#000] text-white h-[47px] w-[180px] z-20 hidden lg:block"
+        >
           ADD TO CART
         </button>
       </div>
