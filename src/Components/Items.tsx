@@ -36,6 +36,76 @@ const Items = () => {
       <div className="flex   mt-10">
         <div
           className={
+            "lg:w-[20%] bottom-[-100%] ease-in-out duration-700 mb-[8rem] overflow-y-auto  lg:flex flex-col text-xl px-3 gap-y-10 lg:gap-y-8 fixed lg:static left-0 z-20 lg:z-0 w-full bg-white h-[70%]"
+          }
+        >
+          <p className="text-black font-bold hidden lg:block text-xl">
+            Category
+          </p>
+          <div className="flex justify-between items-center">
+            <p className="text-black lg:hidden font-bold text-2xl lg:text-base mt-8 lg:mt-0">
+              Filter
+            </p>
+            <img
+              src={cancel}
+              alt=""
+              className="lg:hidden "
+              onClick={() => setopenUp(!openUp)}
+            />
+          </div>
+          <div className=" flex flex-col  gap-y-8 mt-8 lg:mt-0">
+            <div className="flex gap-x-2">
+              <input type="checkbox" />
+              <p className="s">People</p>
+            </div>
+            <div className="flex gap-x-2">
+              <input type="checkbox" />
+              <p className="s">Premium</p>
+            </div>
+            <div className="flex gap-x-2">
+              <input type="checkbox" />
+              <p className="s">Pets</p>
+            </div>
+            <div className="flex gap-x-2">
+              <input type="checkbox" />
+              <p className="s">Food</p>
+            </div>
+            <div className="flex gap-x-2">
+              <input type="checkbox" />
+              <p className="s">Landmarks</p>
+            </div>
+            <div className="flex gap-x-2">
+              <input type="checkbox" />
+              <p className="s">Cities</p>
+            </div>
+            <div className="flex gap-x-2">
+              <input type="checkbox" />
+              <p className="s">Nature</p>
+            </div>
+          </div>
+          <div className="w-full bg-[#C2C2C2]  mt-8 h-[1px]"></div>
+          <div className="flex flex-col gap-y-10 mt-4 lg:gap-y-10">
+            <p className="text-black font-bold text-xl">Price range</p>
+            <div className="flex gap-x-2">
+              <input type="checkbox" />
+              <p className="s">Lower than $20</p>
+            </div>
+            <div className="flex gap-x-2">
+              <input type="checkbox" />
+              <p className="s">$20 - $100</p>
+            </div>
+            <div className="flex gap-x-2">
+              <input type="checkbox" />
+              <p className="s">$100 - $200</p>
+            </div>
+            <div className="flex gap-x-2">
+              <input type="checkbox" />
+              <p className="s">More than $200</p>
+            </div>
+          </div>
+        </div>
+        <div
+          className={
             openUp
               ? "flex top-0 left-0 fixed z-10  w-full  flex-col h-[100vh]"
               : " top-0 left-0 fixed z-10 hidden w-full  flex-col h-[100vh]"
