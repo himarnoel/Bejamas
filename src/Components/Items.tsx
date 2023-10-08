@@ -37,8 +37,8 @@ const Items = () => {
         <div
           className={
             openUp
-              ? "flex top-0 left-0 opacity-[-100%] duration-500  fixed z-10  w-full  flex-col h-[100vh]"
-              : " top-0 left-0 fixed opacity-[100%] duration-500 z-10 hidden lg:block w-full  flex-col h-[100vh]"
+              ? "flex top-0 left-0 fixed z-10  w-full  flex-col h-[100vh]"
+              : " top-0 left-0 fixed z-10 hidden w-full  flex-col h-[100vh]"
           }
         >
           <div
@@ -49,7 +49,7 @@ const Items = () => {
           <div
             className={
               openUp
-                ? "lg:w-[20%]   overflow-y-auto   lg:flex flex-col text-xl px-3 gap-y-10 lg:gap-y-8 lg:static left-0 z-20 lg:z-0 w-full  ease-in-out duration-700 bg-white h-[70%]"
+                ? "lg:w-[20%]   overflow-y-auto   lg:hidden flex-col text-xl px-3 gap-y-10 lg:gap-y-8 lg:static left-0 z-20 lg:z-0 w-full  ease-in-out duration-700 bg-white h-[70%]"
                 : "lg:w-[20%] bottom-[-100%] ease-in-out duration-700 mb-[8rem] overflow-y-auto  lg:flex flex-col text-xl px-3 gap-y-10 lg:gap-y-8 fixed lg:static left-0 z-20 lg:z-0 w-full bg-white h-[70%]"
             }
           >
