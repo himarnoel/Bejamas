@@ -38,7 +38,7 @@ const Items = () => {
           className={
             openUp
               ? "flex top-0 left-0 opacity-[-100%] duration-500  fixed z-10  w-full  flex-col h-[100vh]"
-              : " top-0 left-0 fixed opacity-[100%] duration-500 z-10 hidden w-full  flex-col h-[100vh]"
+              : " top-0 left-0 fixed opacity-[100%] duration-500 z-10 hidden lg:block w-full  flex-col h-[100vh]"
           }
         >
           <div
